@@ -77,11 +77,11 @@ type Project struct {
 }
 
 type ProjectResponse struct {
-	Project `json:"project"`
+	Project Project `json:"project"`
 }
 
 type Projects []Project
 
 type ProjectsResponse struct {
-	Projects `json:"projects"`
+	Projects Projects `json:"projects"`
 }
